@@ -1,0 +1,19 @@
+{
+  // Enable Emmet expansion when pressing Tab
+  "emmet.triggerExpansionOnTab": true,
+
+  // Ensure Emmet understands .js files as JSX (JavaScript React)
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+
+  // Make Tab completions behave more predictably
+  "editor.tabCompletion": "on",
+
+  // Make quick suggestions in strings/JSX work well with Emmet
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": true
+  }
+}
